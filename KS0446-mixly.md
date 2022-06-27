@@ -1,81 +1,10 @@
-**Keyestudio Frog Robot for Arduino Graphical Programming**
-
-**（Mixly Tutorial）**
+# **KS0446 Keyestudio Frog Robot for Mixly Tutorial**
 
 ![蛙](media/bf1a596dded1109ca6c5bc1295ead4bb.png)
 
-**Kit Guide**
 
-[1. About the tutorial 4](#about-the-tutorial)
 
-[2. Features 6](#features)
-
-[3. Parts List 7](#parts-list)
-
-[4. Install Mixly and Driver 13](#_Toc7017)
-
-[(1) Download Mixly Software 13](#download-mixly-software)
-
-[(2) Install Driver 20](#install-driver)
-
-[(3) Start Your Program 33](#start-your-program)
-
-[5. Hardware Projects 41](#hardware-projects)
-
-[Project 1: Keyestudio NANO CH340 41](#_Toc8413)
-
-[Project 2: keyestudio NANO Shield 47](#project-2-keyestudio-nano-shield)
-
-[Project 3: Adjusting Servo Angle 51](#project-3-adjusting-servo-angle)
-
-[Project 4: Ultrasonic Detecting Obstacles 59](#_Toc18385)
-
-[6. Robot Projects 65](#robot-projects)
-
-[ ROBOT ASSEMBLY 65](#robot-assembly)
-
-[1) Fix Feet 68](#fix-feet)
-
-[2) Fix Legs to Feet 70](#fix-legs-to-feet)
-
-[3) Fix Head to Body 75](#fix-head-to-body)
-
-[4) Fix Servos to Body 81](#fix-servos-to-body)
-
-[5) Complete Frog 84](#complete-frog)
-
-[6) Hookup Guide 86](#hookup-guide)
-
-[Project 5: Walk 88](#project-5-walk)
-
-[Project 6: Dance 99](#project-6-dance)
-
-[Project 7: Follow 108](#project-7-follow)
-
-[Project 8: Bluetooth Control 119](#project-8-bluetooth-control)
-
-[ HM-10 Bluetooth Module 120](#_Toc8391)
-
-[ Using Bluetooth APP 123](#_Toc20085)
-
-[ Bluetooth Test 129](#bluetooth-test)
-
-[ Bluetooth Control Robot 132](#bluetooth-control-robot)
-
-[Project 9: Bluetooth Multiple Function
-143](#project-9-bluetooth-multiple-function)
-
-[7. Project Resources 177](#project-resources)
-
-[8. Our Tutorial 177](#our-tutorial)
-
-[9. About keyestudio 177](#about-keyestudio)
-
-[10. Customer Service 178](#_Toc2332)
-
-# 
-
-# About the tutorial
+## About the tutorial
 
 What an amazing Otto Frog Robot is coming!
 
@@ -94,7 +23,7 @@ and put skills into practice that are necessary for problem solving.
 ![IMG_256](media/b3a76280ed9f1e2243a22822846f0257.jpeg)![画板 36 副本
 2mdpi](media/2df0a13f062faaebf900a76fb9c5162d.jpeg)
 
-# Features
+## Features
 
 -   Voltage input: DC 7-12V
 
@@ -114,7 +43,7 @@ and put skills into practice that are necessary for problem solving.
 
 ![青蛙](media/3fec32944bd352ccb20b2552d93c2753.png)
 
-# Parts List
+## Parts List
 
 In this keyestudio frog robot kit package, you’ll receive all the components
 needed to build your own robot, easy to code and learn to play.
@@ -151,7 +80,7 @@ needed to build your own robot, easy to code and learn to play.
 
 1.  **Install Mixly and Driver**
 
-## Download Mixly Software
+### Download Mixly Software
 
 **① Introduction for Mixly**
 
@@ -206,7 +135,7 @@ Mixly 1.0 interface:
 More details about Mixly 1.0 for
 keyestudio：<https://wiki.keyestudio.com/Getting_Started_with_Mixly1.0>
 
-## Install Driver
+### Install Driver
 
 Let’s install the driver of development board. The USB to serial chip of control
 board adopts CH340 chip, therefore, the driver of chip needs installing. We take
@@ -291,7 +220,7 @@ shown below.
 
 ![](media/12d0d097f012ae23a60bf996f0324a89.png)
 
-## Start Your Program
+### Start Your Program
 
 Click“Open”→ sample → arduino→ Arduino → 01 IN-OUT→01-LED Blink.mix
 
@@ -324,12 +253,12 @@ Click **Upload** to upload the program, upload successfully.
 After uploading the program successfully, the on-board LED blinks for 1s.
 Congratulation, you finish the first program.
 
-# Hardware Projects
+## Hardware Projects
 
 As you work your way through each project, you will learn to how to program the
 robot to move, dance, and follow obstacles.
 
-## Project 1: Keyestudio NANO CH340
+### Project 1: Keyestudio NANO CH340
 
 ![KS0173  nano ch340 (1)](media/93ed1381b8363c371a216ae8f16a68ed.jpeg)
 
@@ -406,7 +335,7 @@ Here is an explanation of what every element and interface of the board does:
 
 -   **IIC communication:**  A4 (SDA); A5(SCL)
 
-## Project 2: keyestudio NANO Shield
+### Project 2: keyestudio NANO Shield
 
 ![ks0425-1](media/bcea74fb1ff50613b581f4c401a535da.jpeg)
 
@@ -486,7 +415,7 @@ the power with batteries via white connector.
 
 ![KS0446](media/245f137c91d557cbcea439948c7ed565.png)
 
-## Project 3: Adjusting Servo Angle
+### Project 3: Adjusting Servo Angle
 
 In the process of frog robot DIY, the frog robot has a 180° servomotor at each
 joint. We can control the servomotor at each joint to rotate at different
@@ -615,7 +544,7 @@ reduces from 180 to 0, and each step reduces 1.
 
 ![](media/03ff69bcdb0b5636209bc42a3a0c31b1.png)
 
-## Project 4: Ultrasonic Detecting Obstacles
+### Project 4: Ultrasonic Detecting Obstacles
 
 The ultrasonic module will emit the ultrasonic waves after trigger signal. When
 the ultrasonic waves encounter the object and are reflected back, the module
@@ -723,7 +652,7 @@ change the value, try 2000.
 
     ![](media/6a4730beca34e4b53fd7d2affee7c9b7.png)
 
-# Robot Projects
+## Robot Projects
 
 Let’s get started to assembling the lovely frog robot to move, dance or even
 follow objects. Do operate the robot easily with Bluetooth APP!
@@ -731,7 +660,7 @@ follow objects. Do operate the robot easily with Bluetooth APP!
 Follow this easy and simple instruction of how to install and program your Otto
 Frog Robot!
 
-## ROBOT ASSEMBLY
+### ROBOT ASSEMBLY
 
 All the parts for building frog robot are included in the kit, assembling them
 is easy and typically takes around two hours!
@@ -763,7 +692,7 @@ Upload the test code to adjust well the servo angle.
 
 ![](media/2f4c74ca67d4dea073e925d531ead8f5.png)
 
-### Fix Feet
+##### Fix Feet
 
 ![](media/fa78a7c1fa78da0e62d465aa36869960.png)
 
@@ -771,7 +700,7 @@ Upload the test code to adjust well the servo angle.
 
 ![](media/a48a6e9b92268b92598067275daf8be1.png)
 
-### Fix Legs to Feet
+##### Fix Legs to Feet
 
 ![](media/21ed6292f71cf8ac52ceb2568ba46dd9.png)
 
@@ -783,7 +712,7 @@ Upload the test code to adjust well the servo angle.
 
 ![](media/74637d086b6933b00c76ed3c8ffa7f0b.png)
 
-### Fix Head to Body
+##### Fix Head to Body
 
 ![IMG_256](media/761f854a4683c8f36cbd6a1b02d577d8.png)
 
@@ -950,7 +879,7 @@ Shown as figure C
 
 C![IMG_256](media/761f854a4683c8f36cbd6a1b02d577d8.png)
 
-### Fix Servos to Body
+##### Fix Servos to Body
 
 ![IMG_256](media/761f854a4683c8f36cbd6a1b02d577d8.png)
 
@@ -1060,7 +989,7 @@ Shown as figure D
 
 D![IMG_256](media/761f854a4683c8f36cbd6a1b02d577d8.png)
 
-### Complete Frog
+##### Complete Frog
 
 ![IMG_256](media/761f854a4683c8f36cbd6a1b02d577d8.png)
 
@@ -1149,7 +1078,7 @@ The final part is to connect all the wires.
 
 A-B-C-D![IMG_256](media/761f854a4683c8f36cbd6a1b02d577d8.png)
 
-### Hookup Guide
+##### Hookup Guide
 
 Connect the HC-SR04 ultrasonic sensor to keyestudio NANO shield using 4pin
 female to female jumper wires. VCC pin to 5V(V), Trig pin to digital 6 (S), Echo
@@ -1189,7 +1118,7 @@ on the keyestudio NANO shield.
 
 ![](media/3d07bdd58ff72b3a67e717dba3d81047.png)
 
-## Project 5: Walk
+### Project 5: Walk
 
 ![画板 1mdpi](media/c38c6110815744b452d5a9e56ebc5550.jpeg)
 
@@ -1357,7 +1286,7 @@ standing for 1 second, alternately and loop.
 
 ![青蛙](media/3fec32944bd352ccb20b2552d93c2753.png)
 
-## Project 6: Dance
+### Project 6: Dance
 
 ![IMG_256](media/b3a76280ed9f1e2243a22822846f0257.jpeg)
 
@@ -1477,7 +1406,7 @@ The Otto frog robot will dance. You will see unbelievable dancing movements.
 
 ![画板 36 副本 2mdpi](media/2df0a13f062faaebf900a76fb9c5162d.jpeg)
 
-## Project 7: Follow
+### Project 7: Follow
 
 ![画板 1mdpi](media/238fec200dd61981c3327e16e23892e9.jpeg)
 
@@ -1656,7 +1585,7 @@ The Otto frog robot will move along with the front obstacle.
 
 ![ks0446-7](media/13d87167ab9672591eb55e400414f8f8.jpeg)
 
-## Project 8: Bluetooth Control
+### Project 8: Bluetooth Control
 
 ![画板2dpi](media/2e67efb180b00e25c30f64a7bd486f13.jpeg)
 
@@ -1671,7 +1600,7 @@ When using, we need to install an APP on the phone, and connect the HM-10
 Bluetooth module, then we tap the buttons on the Bluetooth APP to navigate the
 multiple style movement of robot.
 
-### ![蓝牙信号](media/7a06e07e702bfdd7b6034da9f11d870b.png)HM-10 Bluetooth Module
+##### ![蓝牙信号](media/7a06e07e702bfdd7b6034da9f11d870b.png)HM-10 Bluetooth Module
 
 ![KS0455](media/7eae5f117b0a233315d747d51ff658d1.png)
 
@@ -1742,7 +1671,7 @@ We install the Bluetooth APP on the mobile phone, connecting the Bluetooth
 module; finally use the Bluetooth APP to control the robot move, displaying the
 control character of each key on the serial monitor.
 
-### Using Bluetooth APP
+##### Using Bluetooth APP
 
 **For Android system:**
 
@@ -1801,7 +1730,7 @@ Or you can download the keyestudio Frog_Otto APP direct from the Google Play:
 
 ![Screenshot_2019-07-16-09-57-24-72](media/6ca7165b9667331ecd1c313d3871cd87.png)
 
-### Bluetooth Test
+##### Bluetooth Test
 
 **Hookup Guide:**
 
@@ -1854,7 +1783,7 @@ Otherwise, code upload fails.
 
 ![](media/69cc4fe648f8aa588daf62e6837a1f21.png)
 
-### Bluetooth Control Robot
+##### Bluetooth Control Robot
 
 **Circuit Design:**
 
@@ -2053,7 +1982,7 @@ keys, robot stands still.
 
 ![画板 36mdpi](media/0c4e50a10bf3018b01799fd044049b86.jpeg)
 
-## Project 9: Bluetooth Multiple Function
+### Project 9: Bluetooth Multiple Function
 
 **Circuit Design**
 
@@ -2662,7 +2591,7 @@ Otherwise, code upload fails.
 
 ![ks0446-9](media/d49d928259f9a7dae1aa09cb59c92227.jpeg)
 
-# Project Resources
+## Project Resources
 
 -   KEYESTUDIO WIKI: <http://wiki.keyestudio.com/>
 
@@ -2673,7 +2602,7 @@ Otherwise, code upload fails.
 -   Video Link:
     [http://video.keyestudio.com/ks0446/](http://www.keyestudio.com/wp/ks0313/)
 
-# Our Tutorial
+## Our Tutorial
 
 This tutorial is designed for everyone to play the smart car. You will learn all
 the basic information about how to control the smart car with controller board,
@@ -2684,7 +2613,7 @@ projects for you to explore. Furthermore, our KEYESTUDIO research and
 development team will continue to explore on this path, walking you through the
 basics up to complex projects.
 
-# About keyestudio
+## About keyestudio
 
 Located in Shenzhen, the Silicon Valley of China, KEYES DIY ROBOT CO.,LTD is a
 thriving technology company dedicated to open-source hardware research and
@@ -2721,7 +2650,7 @@ details of our products, you can check it from the links below.
 
 **JP Amazon storefront:** <http://www.amazon.jp/shops/AE9VWCCXQIC6J>
 
-# Customer Service
+## Customer Service
 
 As a continuous and fast growing technology company, we keep striving our best
 to offer you excellent products and quality service as to meet your expectation.
